@@ -1,0 +1,309 @@
+body{
+    
+    background-image: url(scrapbook3.jpg);
+    
+}
+
+
+
+.box{
+        position: relative;
+        display: inline-block;
+        width: 700px;
+        top: 100px;
+        margin-top: 5px;
+    /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 20%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
+
+@font-face{
+    
+    font-family: 'Caveat', cursive;
+    /*src: url("caveat-variablefont_wght.ttf");*/
+}
+
+h1{
+  font-family: 'Caveat', cursive; 
+  font-weight: bold;
+  font-style: normal;
+    
+}
+
+
+h2{
+  font-family: 'Caveat', cursive; 
+  font-weight: normal;
+  font-style: normal;
+    
+}
+
+
+p{
+  font-family: 'Caveat', cursive; 
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+    
+}
+
+
+
+.box2{
+        position: relative;
+        display: inline-block;
+        width: 900px;
+        top:150px;
+    /* Make the width of box same as image */
+    }
+    .box2 .text2{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
+img.safety_pin{
+    
+    position: absolute;
+    top: 160px;
+    right:100px;
+    transform: rotate(10deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);;
+}
+
+
+
+img.dress{
+    
+    position: absolute;
+    top: 150px;
+    right:550px;
+    transform: rotate(-12deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+
+.box3{
+        position: absolute;
+        display: inline-block;
+        width: 300px;
+        top:300px;
+        right: 300px;
+    /* Make the width of box same as image */
+    }
+    .box3 .text3{
+        position: absolute;
+        font-size: 10px;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 90%; /* Set the width of the positioned div */
+    }
+
+
+
+
+.box4{
+        position: relative;
+        display: inline-block;
+        width: 500px;
+        top:150px;
+    /* Make the width of box same as image */
+    }
+    .box4 .text4{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 0%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 80%; /* Set the width of the positioned div */
+    }
+
+
+.box5{
+        position: relative;
+        display: inline-block;
+        width: 400px;
+        top:85px;
+        right:-950px;
+    /* Make the width of box same as image */
+    }
+    .box5 .text5{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 20%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 80%; /* Set the width of the positioned div */
+    }
+
+
+.box6{
+        position: absolute;
+        display: inline-block;
+        width: 800px;
+        top:1350px;
+        right:-200px;
+    /* Make the width of box same as image */
+    }
+    .box6 .text6{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: -600px;
+        right: -200px;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: right;
+        width: 90%; /* Set the width of the positioned div */
+    }
+
+.box7{
+        position: absolute;
+        display: inline-block;
+        width: 400px;
+        top:1650px;
+        right:100px;
+    /* Make the width of box same as image */
+    }
+    .box7 .text7{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        right: -10px;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 100%; /* Set the width of the positioned div */
+    }
+
+
+
+
+img.tote_bag{
+    
+    position: absolute;
+    right:1000px;
+    top: -550px;
+    transform: rotate(-1deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);;
+}
+
+
+
+.box8{
+        position: absolute;
+        display: inline-block;
+        width: 500px;
+        top:1200px;
+        right: 700px;
+    /* Make the width of box same as image */
+    }
+    .box8 .text8{
+        position: absolute;
+        font-size: 10px;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 50%; /* Set the width of the positioned div */
+    }
+
+
+
+
+img.luka_1{
+    
+    position: absolute;
+    top: 500px;
+    right:300px;
+    transform: rotate(-2deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+
+
+img.poster{
+    
+    position: absolute;
+    top: 500px;
+    right:40px;
+    transform: rotate(1deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+
+
+img.hair_dye{
+    
+    position: absolute;
+    top: 1600px;
+    left:500px;
+    transform: rotate(1deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+
+/*
+img.susnet{
+    
+    position: absolute;
+    top: -500px;
+    right:0px;
+    transform: rotate(-2deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+*/
+
+
+
+.box9{
+        position: absolute;
+        display: inline-block;
+        width: 500px;
+        top:1600px;
+        right: 900px;
+    /* Make the width of box same as image */
+    }
+    .box9 .text9{
+        position: absolute;
+        font-size: 10px;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 12%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 60%; /* Set the width of the positioned div */
+    }
