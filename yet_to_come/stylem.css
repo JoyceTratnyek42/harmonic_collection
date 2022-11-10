@@ -1,0 +1,219 @@
+body{
+    
+    background-image: url(yeet1.jpg);
+    
+}
+
+
+
+.box{
+        position: relative;
+        display: inline-block;
+        width: 700px;
+        top: 100px;
+        margin-top: 5px;
+        left: 510px;
+        filter: contrast(120%);
+        filter: drop-shadow(5px 5px 5px black);
+    /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0%;
+        right: 60%;
+        top: 30%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
+
+@font-face{
+    
+    font-family: 'Caveat', cursive;
+    /*src: url("caveat-variablefont_wght.ttf");*/
+}
+
+h1{
+  font-family: 'Caveat', cursive; 
+  font-weight: bold;
+  font-style: normal;
+    
+}
+
+h2{
+  font-family: 'Caveat', cursive; 
+  font-weight: normal;
+  font-style: normal;
+    
+}
+
+
+p{
+  font-family: 'Caveat', cursive; 
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+    
+}
+
+
+
+.box2{
+        position: absolute;
+        display: inline-block;
+        width: 800px;
+        top:400px;
+        right: 300px;
+        filter: drop-shadow(5px 5px 5px black);
+    /* Make the width of box same as image */
+    }
+    .box2 .text2{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 10%;
+        right: 90%;
+        top: 5%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 80%; /* Set the width of the positioned div */
+    }
+
+
+img.busanlogo{
+    
+    position: absolute;
+    top: 160px;
+    right:820px;
+    transform: rotate(1deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);;
+}
+
+
+
+
+
+.box4{
+        position: absolute;
+        display: inline-block;
+        width: 400px;
+        top:1000px;
+        right:1000px;
+        filter: drop-shadow(5px 5px 5px black);
+    /* Make the width of box same as image */
+    }
+    .box4 .text4{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0%;
+        right: 0%;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 90%; /* Set the width of the positioned div */
+        font-size: 15px;
+    }
+
+
+
+
+a:link {
+  color: black;
+  text-align: center;
+    
+}
+
+a:visited {
+  color: black;
+  font-family: sans-serif;
+  text-align: center
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-family: sans-serif;
+  text-align: center
+}
+
+/* selected link */
+a:active {
+  color: black;
+  font-family: sans-serif;
+  text-align: center
+}
+
+
+
+
+img.btslogo{
+    
+    position: absolute;
+    top: 90px;
+    left:900px;
+    transform: rotate(15deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+
+
+.box5{
+        position: absolute;
+        display: inline-block;
+        width: 1000px;
+        top:1200px;
+        right:200px;
+        filter: drop-shadow(5px 5px 5px black);
+    /* Make the width of box same as image */
+    }
+    .box5 .text5{
+        color: darkviolet;
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0%;
+        right: 0%;
+        top: 2%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 95%; /* Set the width of the positioned div */
+        font-size: 10px;
+        
+    }
+
+
+.box4{
+        position: absolute;
+        display: inline-block;
+        width: 400px;
+        top:1000px;
+        right:1000px;
+        filter: drop-shadow(5px 5px 5px black);
+    /* Make the width of box same as image */
+    }
+    .box4 .text4{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0%;
+        right: 0%;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 90%; /* Set the width of the positioned div */
+        font-size: 15px;
+    }
+
+img.stadium{
+    
+    position: absolute;
+    top: 900px;
+    left:100px;
+    transform: rotate(1deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);
+}
+

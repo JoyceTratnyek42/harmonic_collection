@@ -205,6 +205,25 @@ a:visited{
     }
 
 
+.box8{
+        position: absolute;
+        display: inline-block;
+        width: 200px;
+        top:800px;
+        left: 400px;
+    /* Make the width of box same as image */
+    }
+    .box8 .text8{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 25%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
 
 /*
 @media screen and (max-width:960px){

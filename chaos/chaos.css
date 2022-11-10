@@ -1,0 +1,143 @@
+body{
+    
+    background-image: url(turquoise.jpg);
+    
+}
+
+
+
+
+@font-face{
+    
+    font-family: 'Caveat', cursive;
+    /*src: url("caveat-variablefont_wght.ttf");*/
+}
+
+h1{
+  font-family: 'Caveat', cursive; 
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+    
+}
+
+body{
+  font-family: 'Caveat', cursive; 
+  font-weight: bold;
+  font-style: normal;
+    
+}
+
+h2{
+  font-family: 'Caveat', cursive; 
+  font-weight: normal;
+  font-style: normal;
+    
+}
+
+
+p{
+  font-family: 'Caveat', cursive; 
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+    
+}
+
+
+
+.box2{
+        position: relative;
+        display: inline-block;
+        width: 700px;
+        top: 100px;
+        margin-top: 5px;
+        left: 200px;
+        filter: contrast(120%);
+        filter: drop-shadow(5px 5px 5px black);
+    /* Make the width of box same as image */
+    }
+    .box2 .text2{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 40%;
+        right: 60%;
+        top: 20%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
+
+
+
+
+
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+ 
+/* Add animation to the slides */
+.slide-wrapper {
+   
+/* Calculate the total width on the
+  basis of number of slides */
+  width: calc(728px * 4);
+ 
+/* Specify the animation with the
+  duration and speed */
+  animation: slide 10s ease infinite;
+}
+ 
+/* Set the background color
+of each of the slides */
+.slide:nth-child(1) {
+  background: clear;
+}
+ 
+.slide:nth-child(2) {
+  background: clear;
+}
+ 
+.slide:nth-child(3) {
+  background: clear;
+}
+ 
+.slide:nth-child(4) {
+  background: clear;
+}
+ 
+/* Define the animation
+for the slideshow */
+@keyframes slide {
+   
+/* Calculate the margin-left for
+  each of the slides */
+  20% {
+    margin-left: 0px;
+  }
+ 
+  40% {
+    margin-left: calc(-728px * 1);
+  }
+ 
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+ 
+  80% {
+    margin-left: calc(-728px * 3);
+  }
+}

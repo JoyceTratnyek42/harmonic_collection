@@ -1,0 +1,127 @@
+body{
+    
+    background-color: gold;
+    
+}
+
+
+
+.box{
+        position: relative;
+        display: inline-block;
+        width: 1000px;
+        top: -50px;
+        margin-top: 5px;
+    /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
+
+@font-face{
+    
+    font-family: 'Caveat', cursive;
+    /*src: url("caveat-variablefont_wght.ttf");*/
+}
+
+h1{
+  font-family: 'Caveat', cursive; 
+  font-weight: bold;
+  font-style: normal;
+    
+}
+
+
+h2{
+  font-family: 'Caveat', cursive; 
+  font-weight: normal;
+  font-style: normal;
+    
+}
+
+
+p{
+  font-family: 'Caveat', cursive; 
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+    
+}
+
+
+
+
+.box2{
+        position: relative;
+        display: inline-block;
+        width: 2000px;
+        top:-100px;
+    /* Make the width of box same as image */
+    }
+    .box2 .text2{
+        color: gold;
+        font-size-adjust: 80px;
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 5%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 45%; /* Set the width of the positioned div */
+        font-size: 80px;
+        column-count: 2;
+    }
+
+img.brightside{
+    
+    position: absolute;
+    top: 20px;
+    right:-220px;
+    transform: rotate(10deg);
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 5px 5px black);;
+}
+
+
+
+a:link {
+  color: gold;
+  text-align: center;
+    
+}
+
+a:visited {
+  color: gold;
+  font-family: sans-serif;
+  text-align: center
+}
+
+/* mouse over link */
+a:hover {
+  color: goldenrod;
+  text-align: center
+}
+
+/* selected link */
+a:active {
+  color: gold;
+  font-family: sans-serif;
+  text-align: center
+}
+
+
+
+
+
+
+
